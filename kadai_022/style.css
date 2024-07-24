@@ -44,6 +44,7 @@ h2::before {
   }
   .contents p:nth-of-type(2)::first-letter {
       color: rgb(97, 206, 249);
+    font-weight:bold;
   }
   img {
       margin: 10px 0px;
@@ -63,7 +64,7 @@ h2::before {
       color: rgb(245, 178, 168);
   }
   
-  @media screen and(max-width:768px) {
+  @media screen and(max-width: 768px) {
       #parent {
           display: flex;
           flex-direction: column;
